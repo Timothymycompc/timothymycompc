@@ -5,8 +5,8 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/bug_reports_filed-37-f59e0b?style=flat-square&labelColor=0a0f19)
-![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-7_projects-10b981?style=flat-square&labelColor=0a0f19)
+![Bug reports](https://img.shields.io/badge/issues_filed-37-f59e0b?style=flat-square&labelColor=0a0f19)
+![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-6_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
 [![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
@@ -21,8 +21,8 @@ research project.
 ## Featured work
 | Project | What it is | Highlights |
 |---|---|---|
-| **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** | Safety gateway for AI agents: "is this transaction what I asked for? is this token a known trap?" Plain HTTP + MCP, paid per call with x402 (USDC) | Live on Cloud Run · public benchmark 9/9 attack cases, 0 false alarms · 200/200 real transactions checked with exact fees · official MCP registry + 4 curated lists |
-| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 31 reports; **fixes merged in 7 projects** (incl. elizaOS, rotki, Agent402) |
+| **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** | Safety gateway for AI agents: "is this transaction what I asked for? is this token a known trap?" Plain HTTP + MCP, paid per call with x402 (USDC) | Live on Cloud Run · public benchmark 9/9 attack cases, 0 false alarms · 200/200 real transactions checked with exact fees · official MCP registry + 4 curated lists (all merged) |
+| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 32 reports; **fixes merged in 6 projects** (incl. elizaOS, rotki, Agent402), plus 3 fix PRs of my own |
 | **[Base Pulse](https://github.com/Timothymycompc/base-pulse)** | The same safety layer for agents paying on Base (EVM): recipient checks, approvals, sanctions list, x402 checks | Live since Oct 14 |
 | **[CashOut Check](https://github.com/Timothymycompc/cashout-check)** | Paste an online casino, play-to-earn app or deposit wallet, get a plain scam-risk answer with sources | Built from real scam investigations; tests use recorded real cases |
 | **Telegram bots** | Public Pulse checker, a firewood-buyer finder (free public data), grant/bounty scanner, freelance job assistant | 2 live, 3 built |
