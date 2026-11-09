@@ -1,0 +1,2 @@
+[![Solana Pulse: agent safety layer MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
+[![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
