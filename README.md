@@ -46,6 +46,7 @@ this **every day (31 of 31), about 7 hours a day.**
 | Firewood Buyers | ~4 |
 | Dev log + portfolio | ~4 |
 | Rug Check, Money Scan, Clip Drop | ~2 |
+| **Total** | **≈ 250** (rows add to ~281 because some sessions overlap) |
 
 <sub>Estimated from git commit sessions and AI-session history ([method + script](https://github.com/Timothymycompc/dev-log#time-spent-estimated)). Per-project rows overlap slightly where sessions ran in parallel.</sub>
 
