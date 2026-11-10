@@ -29,6 +29,26 @@ research project.
 | **[Trading Review](https://github.com/Timothymycompc/trading-review)** | Honest backtests of memecoin bots, stock rules and forex systems — all code and raw data public | Locked test years, hidden data, tests committed before they ran; reports what *failed* |
 | **[Dev Log](https://github.com/Timothymycompc/dev-log)** | The full story: what I built, what broke, how I fixed it, what I learned | Timeline, lessons, security practices |
 
+## Time invested
+**≈ 250 hours from Aug 30 to Nov 9, 2026**, about six full work weeks, all in off-work hours. Since Oct 10 I've worked on
+this **every day (31 of 31), about 7 hours a day.**
+
+| Project | ≈ Hours |
+|---|---|
+| Solana Pulse | ~165 |
+| Trade Desk (memecoins) | ~40 |
+| V1 Ready + bug reports | ~19 |
+| Phone setup + AI tooling | ~17 |
+| CashOut Check | ~10 |
+| Base Pulse | ~9 |
+| Freelance tools (Gig Bidder, gigs) | ~6 |
+| Night Desk (stocks + forex) | ~5 |
+| Firewood Buyers | ~4 |
+| Dev log + portfolio | ~4 |
+| Rug Check, Money Scan, Clip Drop | ~2 |
+
+<sub>Estimated from git commit sessions and AI-session history ([method + script](https://github.com/Timothymycompc/dev-log#time-spent-estimated)). Per-project rows overlap slightly where sessions ran in parallel.</sub>
+
 ## Strengths
 - **I ship complete systems.** API, database, payments, scheduled jobs, alerts, deploys with one-command rollback — on
   Google Cloud Run, Cloud SQL, Scheduler, Secret Manager and Cloud Build.
