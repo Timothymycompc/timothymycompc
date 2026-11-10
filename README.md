@@ -13,6 +13,8 @@
 
 </p>
 
+**Portfolio site: [timothymycompc.github.io](https://timothymycompc.github.io)**
+
 I build **safety tools for AI agents and people who move money on Solana**, and I test them honestly. Since August 2026,
 in my off-work hours and mostly from a phone, I've shipped a production API on Google Cloud, five Telegram bots, an
 ecosystem-wide bug investigation that got fixes merged in other teams' code, and a public, fully reproducible trading
