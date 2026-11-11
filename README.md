@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/issues_filed-40-f59e0b?style=flat-square&labelColor=0a0f19)
+![Bug reports](https://img.shields.io/badge/issues_filed-41-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-7_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -33,24 +33,40 @@ research project.
 | **[Trading Review](https://github.com/Timothymycompc/trading-review)** | Honest backtests of memecoin bots, stock rules and forex systems — all code and raw data public | Locked test years, hidden data, tests committed before they ran; reports what *failed* |
 | **[Dev Log](https://github.com/Timothymycompc/dev-log)** | The full story: what I built, what broke, how I fixed it, what I learned | Timeline, lessons, security practices |
 
+## Latest bug reports and fixes
+<!-- latest:start -->
+| Date | Issue | What it's about | State |
+|---|---|---|---|
+| 2026-11-11 | [bitget-wallet-ai-lab/bitget-wallet-skill#76](https://github.com/bitget-wallet-ai-lab/bitget-wallet-skill/issues/76) | Solana: check order-create transactions before order_sign.py signs them | open |
+| 2026-11-11 | [alsk1992/CloddsBot#164](https://github.com/alsk1992/CloddsBot/issues/164) | Solana: check API-built swap transactions before signAndSendVersionedTransaction signs them | open |
+| 2026-11-11 | [AIEngineerX/BagsWorld#11](https://github.com/AIEngineerX/BagsWorld/issues/11) | GhostTrader: check the Bags API swap transaction before the agent signs it | open |
+| 2026-11-11 | [kaiserern/Kaiser.charon#2](https://github.com/kaiserern/Kaiser.charon/issues/2) | Idea: check the Jupiter order transaction before signing it in live mode | open |
+| 2026-11-01 | [blockworks-foundation/mango-v4#1019](https://github.com/blockworks-foundation/mango-v4/issues/1019) | parseTxForKnownErrors fails on version 1 transactions (maxSupportedTransactionVersion: 0) | open |
+| 2026-11-01 | [openbook-dex/openbook-v2#295](https://github.com/openbook-dex/openbook-v2/issues/295) | SDK market discovery breaks when any event-authority transaction is version 1 | open |
+| 2026-11-01 | [velocity-exchange/velocity-v1#572](https://github.com/velocity-exchange/velocity-v1/issues/572) | cli-admin audit: one version 1 withdrawal makes a whole batch of 50 unreadable | open |
+| 2026-11-01 | [antonpiat/taurvia#86](https://github.com/antonpiat/taurvia/issues/86) | Solana activity: version 1 transactions show as a blank "Transaction" with no amount or direction | fixed |
+
+<sub>Updated automatically from GitHub: 41 issues filed, 7 projects fixed a bug I reported, 5 merged PRs.</sub>
+<!-- latest:end -->
+
 ## Time invested
-**≈ 250 hours from Aug 30 to Nov 9, 2026**, about six full work weeks, all in off-work hours. Since Oct 10 I've worked on
-this **every day (31 of 31), about 7 hours a day.**
+**≈ 256 hours from Aug 30 to Nov 11, 2026**, about six and a half full work weeks, all in off-work hours. Since Oct 10 I've worked on
+this **every day (33 of 33), about 7 hours a day.**
 
 | Project | ≈ Hours |
 |---|---|
-| Solana Pulse | ~165 |
+| Solana Pulse | ~170 |
 | Trade Desk (memecoins) | ~40 |
-| V1 Ready + bug reports | ~19 |
+| V1 Ready + bug reports | ~20 |
 | Phone setup + AI tooling | ~17 |
 | CashOut Check | ~10 |
 | Base Pulse | ~9 |
 | Freelance tools (Gig Bidder, gigs) | ~6 |
 | Night Desk (stocks + forex) | ~5 |
 | Firewood Buyers | ~4 |
-| Dev log + portfolio | ~4 |
-| Rug Check, Money Scan, Clip Drop | ~2 |
-| **Total** | **≈ 250** (rows add to ~281 because some sessions overlap) |
+| Dev log + portfolio | ~5 |
+| Rug Check + Drain Check, Money Scan, Clip Drop | ~3 |
+| **Total** | **≈ 256** (rows add to ~289 because some sessions overlap) |
 
 <sub>Estimated from git commit sessions and AI-session history ([method + script](https://github.com/Timothymycompc/dev-log#time-spent-estimated)). Per-project rows overlap slightly where sessions ran in parallel.</sub>
 

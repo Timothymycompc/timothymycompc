@@ -1,0 +1,26 @@
+name: Update profile stats
+# Refreshes the issue / fix / merged-PR numbers and the latest-reports list from GitHub.
+# Runs shortly after each bug-report posting run (10:00 and 16:00 Dallas), once more at night, and on demand.
+on:
+  schedule:
+    - cron: "30 16 * * *"   # 10:30 Dallas (CST)
+    - cron: "30 22 * * *"   # 16:30 Dallas (CST)
+    - cron: "0 5 * * *"     # 23:00 Dallas (CST)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/update_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Profile stats: refresh from GitHub"
+          git push
