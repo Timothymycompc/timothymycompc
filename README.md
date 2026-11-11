@@ -6,7 +6,7 @@
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
 ![Bug reports](https://img.shields.io/badge/issues_filed-41-f59e0b?style=flat-square&labelColor=0a0f19)
-![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-7_projects-10b981?style=flat-square&labelColor=0a0f19)
+![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-8_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
 [![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
@@ -46,7 +46,7 @@ research project.
 | 2026-11-01 | [velocity-exchange/velocity-v1#572](https://github.com/velocity-exchange/velocity-v1/issues/572) | cli-admin audit: one version 1 withdrawal makes a whole batch of 50 unreadable | open |
 | 2026-11-01 | [antonpiat/taurvia#86](https://github.com/antonpiat/taurvia/issues/86) | Solana activity: version 1 transactions show as a blank "Transaction" with no amount or direction | fixed |
 
-<sub>Updated automatically from GitHub: 41 issues filed, 7 projects fixed a bug I reported, 5 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 41 issues filed, 8 projects fixed a bug I reported, 5 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
