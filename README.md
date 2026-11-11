@@ -5,8 +5,8 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/issues_filed-41-f59e0b?style=flat-square&labelColor=0a0f19)
-![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-8_projects-10b981?style=flat-square&labelColor=0a0f19)
+![Bug reports](https://img.shields.io/badge/issues_filed-61-f59e0b?style=flat-square&labelColor=0a0f19)
+![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
 [![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
@@ -37,16 +37,16 @@ research project.
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
-| 2026-11-11 | [bitget-wallet-ai-lab/bitget-wallet-skill#76](https://github.com/bitget-wallet-ai-lab/bitget-wallet-skill/issues/76) | Solana: check order-create transactions before order_sign.py signs them | open |
-| 2026-11-11 | [alsk1992/CloddsBot#164](https://github.com/alsk1992/CloddsBot/issues/164) | Solana: check API-built swap transactions before signAndSendVersionedTransaction signs them | open |
-| 2026-11-11 | [AIEngineerX/BagsWorld#11](https://github.com/AIEngineerX/BagsWorld/issues/11) | GhostTrader: check the Bags API swap transaction before the agent signs it | open |
-| 2026-11-11 | [kaiserern/Kaiser.charon#2](https://github.com/kaiserern/Kaiser.charon/issues/2) | Idea: check the Jupiter order transaction before signing it in live mode | open |
-| 2026-11-01 | [blockworks-foundation/mango-v4#1019](https://github.com/blockworks-foundation/mango-v4/issues/1019) | parseTxForKnownErrors fails on version 1 transactions (maxSupportedTransactionVersion: 0) | open |
-| 2026-11-01 | [openbook-dex/openbook-v2#295](https://github.com/openbook-dex/openbook-v2/issues/295) | SDK market discovery breaks when any event-authority transaction is version 1 | open |
-| 2026-11-01 | [velocity-exchange/velocity-v1#572](https://github.com/velocity-exchange/velocity-v1/issues/572) | cli-admin audit: one version 1 withdrawal makes a whole batch of 50 unreadable | open |
-| 2026-11-01 | [antonpiat/taurvia#86](https://github.com/antonpiat/taurvia/issues/86) | Solana activity: version 1 transactions show as a blank "Transaction" with no amount or direction | fixed |
+| 2026-11-11 | [ibonon/Sigui#5](https://github.com/ibonon/Sigui/issues/5) | solana_oracle.monitor_slot sees no transactions in most blocks | open |
+| 2026-11-11 | [AIQnetLab/QNet-Blockchain#3](https://github.com/AIQnetLab/QNet-Blockchain/issues/3) | activation bridge can't see burn transactions sent as version 1 | open |
+| 2026-11-11 | [arbincept/meme-intelligence-onchain#2](https://github.com/arbincept/meme-intelligence-onchain/issues/2) | solana_rpc.get_transaction returns None for every version 1 transaction | open |
+| 2026-11-11 | [SharesDAO/Arbitrage-Trader#2](https://github.com/SharesDAO/Arbitrage-Trader/issues/2) | one version 1 deposit makes get_sol_txs return no transactions at all | open |
+| 2026-11-11 | [JamesonRGrieve/ServerFramework#284](https://github.com/JamesonRGrieve/ServerFramework/issues/284) | PRV_Solana transaction lookup fails for version 1 transactions | open |
+| 2026-11-11 | [redactedmeme/swarm#26](https://github.com/redactedmeme/swarm/issues/26) | arb-keeper: check the Jupiter transaction before _sign_tx signs it | open |
+| 2026-11-11 | [nexgent-ai-org/nexgent-open-source-trading-engine#57](https://github.com/nexgent-ai-org/nexgent-open-source-trading-engine/issues/57) | Jupiter swap provider: check the swap transaction before signTransaction | open |
+| 2026-11-11 | [motebit/motebit#1253](https://github.com/motebit/motebit/issues/1253) | wallet-solana: check Jupiter swap transactions before the agent signs them | open |
 
-<sub>Updated automatically from GitHub: 41 issues filed, 8 projects fixed a bug I reported, 5 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 61 issues filed, 9 projects fixed a bug I reported, 5 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
