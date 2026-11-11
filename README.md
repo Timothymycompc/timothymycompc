@@ -5,8 +5,8 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/issues_filed-37-f59e0b?style=flat-square&labelColor=0a0f19)
-![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-6_projects-10b981?style=flat-square&labelColor=0a0f19)
+![Bug reports](https://img.shields.io/badge/issues_filed-40-f59e0b?style=flat-square&labelColor=0a0f19)
+![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-7_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
 [![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
@@ -16,7 +16,7 @@
 **Portfolio site: [timothymycompc.github.io](https://timothymycompc.github.io)**
 
 I build **safety tools for AI agents and people who move money on Solana**, and I test them honestly. Since August 2026,
-in my off-work hours and mostly from a phone, I've shipped a production API on Google Cloud, five Telegram bots, an
+in my off-work hours and mostly from a phone, I've shipped a production API on Google Cloud, two free public safety websites, five Telegram bots, an
 ecosystem-wide bug investigation that got fixes merged in other teams' code, and a public, fully reproducible trading
 research project.
 
@@ -24,7 +24,8 @@ research project.
 | Project | What it is | Highlights |
 |---|---|---|
 | **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** | Safety gateway for AI agents: "is this transaction what I asked for? is this token a known trap?" Plain HTTP + MCP, paid per call with x402 (USDC) | Live on Cloud Run · public benchmark 9/9 attack cases, 0 false alarms · 200/200 real transactions checked with exact fees · official MCP registry + 4 curated lists (all merged) |
-| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 32 reports; **fixes merged in 6 projects** (incl. elizaOS, rotki, Agent402), plus 3 fix PRs of my own |
+| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 34 reports; **fixes merged in 7 projects** (incl. elizaOS, rotki, Agent402, Chainflip), plus 3 fix PRs of my own. Nov 11: tested on mainnet that `@solana/web3.js` below 1.99.0 can't read version 1 even with the right setting, posted corrections on my own reports, and restarted the reports from a daily cloud job (10 a day, each checked against the repo's live code) |
+| **Rug Check + Drain Check** | Two free, cross-linked websites on one deploy: [Rug Check](https://rug-check-1021990235790.us-central1.run.app) (paste a token: known rug traps plus who traded it from launch) and [Drain Check](https://drain-check-1021990235790.us-central1.run.app) (paste a wallet or Solscan link: was it drained, where the money went) | Built Nov 10–11 on Solana Pulse data, every fact sourced or marked unknown · fixed the drain tracer after a real case where an 83.9 SOL send was hidden behind dust spam |
 | **[Base Pulse](https://github.com/Timothymycompc/base-pulse)** | The same safety layer for agents paying on Base (EVM): recipient checks, approvals, sanctions list, x402 checks | Live since Oct 14 |
 | **[CashOut Check](https://github.com/Timothymycompc/cashout-check)** | Paste an online casino, play-to-earn app or deposit wallet, get a plain scam-risk answer with sources | Built from real scam investigations; tests use recorded real cases |
 | **Telegram bots** | Public Pulse checker, a firewood-buyer finder (free public data), grant/bounty scanner, freelance job assistant | 2 live, 3 built |
@@ -69,7 +70,8 @@ this **every day (31 of 31), about 7 hours a day.**
 - **Writing code without AI help.** I direct and review AI-written code well; my hand-coding fundamentals are what I'm
   building up next.
 - **Getting real users.** Pulse has handled 180k+ calls, but those were directories, monitors and tests, not customers.
-  Distribution is the skill I'm learning now.
+  Distribution is the skill I'm learning now. Since Nov 11 I'm offering agent teams a free month of pre-sign checks,
+  each message pointing at the exact line where their agent signs a transaction without checking it.
 - **Finishing before starting.** A few bots are built but not yet deployed, so I'm working to one project at a time.
 
 ## Tools I use
