@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/issues_filed-61-f59e0b?style=flat-square&labelColor=0a0f19)
+![Bug reports](https://img.shields.io/badge/issues_filed-71-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -37,16 +37,16 @@ research project.
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
-| 2026-11-11 | [ibonon/Sigui#5](https://github.com/ibonon/Sigui/issues/5) | solana_oracle.monitor_slot sees no transactions in most blocks | open |
-| 2026-11-11 | [AIQnetLab/QNet-Blockchain#3](https://github.com/AIQnetLab/QNet-Blockchain/issues/3) | activation bridge can't see burn transactions sent as version 1 | open |
-| 2026-11-11 | [arbincept/meme-intelligence-onchain#2](https://github.com/arbincept/meme-intelligence-onchain/issues/2) | solana_rpc.get_transaction returns None for every version 1 transaction | open |
-| 2026-11-11 | [SharesDAO/Arbitrage-Trader#2](https://github.com/SharesDAO/Arbitrage-Trader/issues/2) | one version 1 deposit makes get_sol_txs return no transactions at all | open |
-| 2026-11-11 | [JamesonRGrieve/ServerFramework#284](https://github.com/JamesonRGrieve/ServerFramework/issues/284) | PRV_Solana transaction lookup fails for version 1 transactions | open |
-| 2026-11-11 | [redactedmeme/swarm#26](https://github.com/redactedmeme/swarm/issues/26) | arb-keeper: check the Jupiter transaction before _sign_tx signs it | open |
-| 2026-11-11 | [nexgent-ai-org/nexgent-open-source-trading-engine#57](https://github.com/nexgent-ai-org/nexgent-open-source-trading-engine/issues/57) | Jupiter swap provider: check the swap transaction before signTransaction | open |
-| 2026-11-11 | [motebit/motebit#1253](https://github.com/motebit/motebit/issues/1253) | wallet-solana: check Jupiter swap transactions before the agent signs them | open |
+| 2026-11-11 | [zostaff/gromo#1](https://github.com/zostaff/gromo/issues/1) | desk wallet: check what a transaction does before sign() signs it | open |
+| 2026-11-11 | [theselfruleorg/polyrob#43](https://github.com/theselfruleorg/polyrob/issues/43) | solana_signer: the signing perimeter checks who pays, not what the transaction does | open |
+| 2026-11-11 | [open-covenant/covenant#392](https://github.com/open-covenant/covenant/issues/392) | stake-keeper: check the Jupiter transaction before sign_and_send_jupiter_tx signs it | open |
+| 2026-11-11 | [hujikol/kairos-dlmm-agent#6](https://github.com/hujikol/kairos-dlmm-agent/issues/6) | helius swaps: check the Jupiter Ultra order before the agent signs it | open |
+| 2026-11-11 | [etcherfx/sol-trade#15](https://github.com/etcherfx/sol-trade/issues/15) | transactions: check the Jupiter order before _sign_order_transaction signs it | open |
+| 2026-11-11 | [caos-ssj/Crypto.Bot#12](https://github.com/caos-ssj/Crypto.Bot/issues/12) | executor: check the Jupiter transaction before _sign_swap_transaction signs it | open |
+| 2026-11-11 | [NadirAliOfficial/solana-autobuy-bot#7](https://github.com/NadirAliOfficial/solana-autobuy-bot/issues/7) | auto_buy: check the Jupiter swap transaction before signing | open |
+| 2026-11-11 | [IQCoreTeam/milady-clawbal#2](https://github.com/IQCoreTeam/milady-clawbal/issues/2) | signAndSend: check bags.fm transactions before the elizaOS agent signs them | open |
 
-<sub>Updated automatically from GitHub: 61 issues filed, 9 projects fixed a bug I reported, 5 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 71 issues filed, 9 projects fixed a bug I reported, 5 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
