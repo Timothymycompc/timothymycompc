@@ -4,8 +4,8 @@
 
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
-![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10b981?style=flat-square&labelColor=0a0f19)
-![Bug reports](https://img.shields.io/badge/issues_filed-71-f59e0b?style=flat-square&labelColor=0a0f19)
+![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-71-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -23,10 +23,10 @@ research project.
 ## Featured work
 | Project | What it is | Highlights |
 |---|---|---|
-| **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** | Safety gateway for AI agents: "is this transaction what I asked for? is this token a known trap?" Plain HTTP + MCP, paid per call with x402 (USDC) | Live on Cloud Run · public benchmark 9/9 attack cases, 0 false alarms · 200/200 real transactions checked with exact fees · official MCP registry + 4 curated lists (all merged) |
+| **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** | Safety gateway for AI agents: "is this transaction what I asked for? is this token a known trap?" Plain HTTP + MCP, paid per call with x402 (USDC). One-line installs: `npm install solana-pulse`, `pip install solana-pulse`, plus packages for Coinbase AgentKit, elizaOS and Solana Agent Kit | Live on Cloud Run · public benchmark 9/9 attack cases, 0 false alarms · 200/200 real transactions checked with exact fees · official MCP registry + 4 curated lists (all merged) |
 | **[Drain Check](https://drain-check-1021990235790.us-central1.run.app)** | Free "was my wallet drained?" website: paste a wallet, a transaction ID or a Solscan link and see the biggest move, where the money went, and which drain patterns were found (lookalike dust, sweeper wallets, someone else paying the fees) | Built Nov 10–11 on Solana Pulse data, every fact sourced or marked unknown · fixed after a real case where an 83.9 SOL send was hidden behind dust spam · from a transaction ID it asks which wallet is yours, then traces it |
 | **[Rug Check](https://rug-check-1021990235790.us-central1.run.app)** | Free "is this token a rug pull?" website, sister site to Drain Check on the same deploy: known rug traps plus who traded it from launch (insider check) | Paste a token or a Solscan link · verdict first, insider check loads after |
-| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 34 reports; **fixes merged in 7 projects** (incl. elizaOS, rotki, Agent402, Chainflip), plus 3 fix PRs of my own. Nov 11: tested on mainnet that `@solana/web3.js` below 1.99.0 can't read version 1 even with the right setting, posted corrections on my own reports, and restarted the reports from a daily cloud job (10 a day, each checked against the repo's live code) |
+| **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 45 reports; **fixes merged in 9 projects** (incl. elizaOS, rotki, Agent402, Chainflip, QuickNode), plus 3 fix PRs of my own. Nov 11: tested on mainnet that `@solana/web3.js` below 1.99.0 can't read version 1 even with the right setting, posted corrections on my own reports, and restarted the reports from a daily cloud job (10 a day, each checked against the repo's live code); paused Nov 12 to focus on direct offers to teams that sign API-built transactions |
 | **[Base Pulse](https://github.com/Timothymycompc/base-pulse)** | The same safety layer for agents paying on Base (EVM): recipient checks, approvals, sanctions list, x402 checks | Live since Oct 14 |
 | **[CashOut Check](https://github.com/Timothymycompc/cashout-check)** | Paste an online casino, play-to-earn app or deposit wallet, get a plain scam-risk answer with sources | Built from real scam investigations; tests use recorded real cases |
 | **Telegram bots** | Public Pulse checker, a firewood-buyer finder (free public data), grant/bounty scanner, freelance job assistant | 2 live, 3 built |
@@ -38,7 +38,7 @@ research project.
 | Date | Issue | What it's about | State |
 |---|---|---|---|
 | 2026-11-11 | [zostaff/gromo#1](https://github.com/zostaff/gromo/issues/1) | desk wallet: check what a transaction does before sign() signs it | open |
-| 2026-11-11 | [theselfruleorg/polyrob#43](https://github.com/theselfruleorg/polyrob/issues/43) | solana_signer: the signing perimeter checks who pays, not what the transaction does | open |
+| 2026-11-11 | [theselfruleorg/polyrob#43](https://github.com/theselfruleorg/polyrob/issues/43) | solana_signer: the signing perimeter checks who pays, not what the transaction does | closed |
 | 2026-11-11 | [open-covenant/covenant#392](https://github.com/open-covenant/covenant/issues/392) | stake-keeper: check the Jupiter transaction before sign_and_send_jupiter_tx signs it | open |
 | 2026-11-11 | [hujikol/kairos-dlmm-agent#6](https://github.com/hujikol/kairos-dlmm-agent/issues/6) | helius swaps: check the Jupiter Ultra order before the agent signs it | open |
 | 2026-11-11 | [etcherfx/sol-trade#15](https://github.com/etcherfx/sol-trade/issues/15) | transactions: check the Jupiter order before _sign_order_transaction signs it | open |
@@ -46,7 +46,7 @@ research project.
 | 2026-11-11 | [NadirAliOfficial/solana-autobuy-bot#7](https://github.com/NadirAliOfficial/solana-autobuy-bot/issues/7) | auto_buy: check the Jupiter swap transaction before signing | open |
 | 2026-11-11 | [IQCoreTeam/milady-clawbal#2](https://github.com/IQCoreTeam/milady-clawbal/issues/2) | signAndSend: check bags.fm transactions before the elizaOS agent signs them | open |
 
-<sub>Updated automatically from GitHub: 71 issues filed, 9 projects fixed a bug I reported, 5 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 71 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested

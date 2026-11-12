@@ -3,7 +3,7 @@
 Counted from GitHub search (real data only):
 - issues_filed: issues I opened in other people's repos
 - fixes: distinct repos where a "version 1" report of mine was closed as completed (fixed)
-- merged_PRs: my merged pull requests
+- merged_PRs: my pull requests merged into other people's repos (my own repos don't count)
 - latest list: my 8 newest issues in other people's repos, with their state
 Runs in GitHub Actions (.github/workflows/stats.yml) with the built-in GITHUB_TOKEN; stdlib only.
 """
@@ -27,7 +27,7 @@ def repo_of(item):
 
 issues = search(f"author:{ME} type:issue -user:{ME}")
 fixed = search(f'author:{ME} type:issue -user:{ME} is:closed reason:completed "version 1"')
-merged = search(f"author:{ME} type:pr is:merged")
+merged = search(f"author:{ME} type:pr is:merged -user:{ME}")  # merged by other projects, not my own repos
 
 n_issues = issues["total_count"]
 n_fixed = len({repo_of(i) for i in fixed["items"]})
