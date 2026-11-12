@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-71-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-81-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -37,16 +37,16 @@ research project.
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
-| 2026-11-11 | [zostaff/gromo#1](https://github.com/zostaff/gromo/issues/1) | desk wallet: check what a transaction does before sign() signs it | open |
-| 2026-11-11 | [theselfruleorg/polyrob#43](https://github.com/theselfruleorg/polyrob/issues/43) | solana_signer: the signing perimeter checks who pays, not what the transaction does | closed |
-| 2026-11-11 | [open-covenant/covenant#392](https://github.com/open-covenant/covenant/issues/392) | stake-keeper: check the Jupiter transaction before sign_and_send_jupiter_tx signs it | open |
-| 2026-11-11 | [hujikol/kairos-dlmm-agent#6](https://github.com/hujikol/kairos-dlmm-agent/issues/6) | helius swaps: check the Jupiter Ultra order before the agent signs it | open |
-| 2026-11-11 | [etcherfx/sol-trade#15](https://github.com/etcherfx/sol-trade/issues/15) | transactions: check the Jupiter order before _sign_order_transaction signs it | open |
-| 2026-11-11 | [caos-ssj/Crypto.Bot#12](https://github.com/caos-ssj/Crypto.Bot/issues/12) | executor: check the Jupiter transaction before _sign_swap_transaction signs it | open |
-| 2026-11-11 | [NadirAliOfficial/solana-autobuy-bot#7](https://github.com/NadirAliOfficial/solana-autobuy-bot/issues/7) | auto_buy: check the Jupiter swap transaction before signing | open |
-| 2026-11-11 | [IQCoreTeam/milady-clawbal#2](https://github.com/IQCoreTeam/milady-clawbal/issues/2) | signAndSend: check bags.fm transactions before the elizaOS agent signs them | open |
+| 2026-11-12 | [sharukh-oss/crypto-bot-settings#95](https://github.com/sharukh-oss/crypto-bot-settings/issues/95) | cryptobot: check the Jupiter swap transaction before swap() signs it | open |
+| 2026-11-12 | [tangle-network/ai-trading-blueprint#204](https://github.com/tangle-network/ai-trading-blueprint/issues/204) | jupiter swap: the payer check leaves "which instructions" to Jupiter; a dry run closes that | open |
+| 2026-11-12 | [raphaelcangucu/jev-solana-trader#3](https://github.com/raphaelcangucu/jev-solana-trader/issues/3) | swap: check the Jupiter transaction before sign_versioned_for_taker signs it | open |
+| 2026-11-12 | [c624/live-trader#6](https://github.com/c624/live-trader/issues/6) | chain: check Jupiter's transaction before sign_and_send signs it | open |
+| 2026-11-12 | [Cavenfish/bonanca#1](https://github.com/Cavenfish/bonanca/issues/1) | jupiter: check the swap transaction before wallet.sign_and_send signs it | open |
+| 2026-11-12 | [nickthelegend/xorr-solana#78](https://github.com/nickthelegend/xorr-solana/issues/78) | jupiter venue: check the swap transaction before the agent signs it | open |
+| 2026-11-12 | [3pacs/GRID#1143](https://github.com/3pacs/GRID/issues/1143) | solana wallet: check the Jupiter Ultra order before sign_base64_transaction signs it | open |
+| 2026-11-12 | [Sperax/bnb-chain-toolkit#16](https://github.com/Sperax/bnb-chain-toolkit/issues/16) | agenti MCP: check the Jupiter swap transaction before executeJupiterSwap signs it | open |
 
-<sub>Updated automatically from GitHub: 71 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 81 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
