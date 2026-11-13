@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-91-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-101-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -65,16 +65,16 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
-| 2026-11-12 | [CigaleAI/guilds-connectors#3](https://github.com/CigaleAI/guilds-connectors/issues/3) | wallet connector: check the Jupiter transaction before submitSolana() signs it | open |
-| 2026-11-12 | [sip-protocol/sip-protocol#1273](https://github.com/sip-protocol/sip-protocol/issues/1273) | jupiter adapter: check the Jupiter transaction before swap() signs it | open |
-| 2026-11-12 | [0xNickdev/aiagentzoo#1](https://github.com/0xNickdev/aiagentzoo/issues/1) | buyback: check the Jupiter transaction before sweepOnce() signs it | open |
-| 2026-11-12 | [romankurnovskii/etemaro#511](https://github.com/romankurnovskii/etemaro/issues/511) | WalletAdapter swapToken: check the Jupiter Ultra transaction before swapToken() signs it | open |
-| 2026-11-12 | [QuilibriumNetwork/quorum-mobile#280](https://github.com/QuilibriumNetwork/quorum-mobile/issues/280) | jupiterService: check the Jupiter transaction before executeJupiterSwap() signs it | open |
-| 2026-11-12 | [recogardtech/AutoPilotPM#10](https://github.com/recogardtech/AutoPilotPM/issues/10) | bagsSwapHandler: check the Bags swap transaction before signing it | open |
-| 2026-11-12 | [Mftrferdinand/Zeline#360](https://github.com/Mftrferdinand/Zeline/issues/360) | zeline-crypto nft_engine: check the Magic Eden transaction before buy_nft_solana_me() signs it | open |
-| 2026-11-12 | [BlockRunAI/Franklin#246](https://github.com/BlockRunAI/Franklin/issues/246) | Jupiter swaps: a way to verify every instruction and asset movement before signing | open |
+| 2026-11-13 | [arkade-01/jumpa#2](https://github.com/arkade-01/jumpa/issues/2) | executeBuyOrder: check the Jupiter Ultra transaction before executeBuyOrder() signs it | open |
+| 2026-11-13 | [Strobingn/night-desk#48](https://github.com/Strobingn/night-desk/issues/48) | live-broker: check the Jupiter transaction before executeLiveSwap() signs it | open |
+| 2026-11-13 | [Shamrock2245/shamrock-trading-bot#34](https://github.com/Shamrock2245/shamrock-trading-bot/issues/34) | sell_engine: check the Jupiter transaction before execute_sell_solana() signs it | open |
+| 2026-11-13 | [Neltud/xArtists#570](https://github.com/Neltud/xArtists/issues/570) | lia jupiter executor: check the Jupiter transaction before _send_versioned_tx() signs it | open |
+| 2026-11-13 | [Hauntedhams/Moonfeed#1](https://github.com/Hauntedhams/Moonfeed/issues/1) | instantTrade: check the Jupiter transaction before signAndSend() signs it | open |
+| 2026-11-13 | [GoldenFarFR/ARIA#92](https://github.com/GoldenFarFR/ARIA/issues/92) | jupiter_swap_signer: check the Jupiter transaction before sign_transaction() signs it | open |
+| 2026-11-13 | [8bitsats/solana-MCP-tradingserver#5](https://github.com/8bitsats/solana-MCP-tradingserver/issues/5) | MCP executeSwap: check the Jupiter transaction before executeSwap() signs it | open |
+| 2026-11-13 | [sullystuff/wxmr-frontend#10](https://github.com/sullystuff/wxmr-frontend/issues/10) | orchestrator solana: check the Jupiter Ultra transaction before executeJupiterQuote() signs it | open |
 
-<sub>Updated automatically from GitHub: 91 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 101 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
