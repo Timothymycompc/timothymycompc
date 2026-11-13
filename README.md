@@ -20,6 +20,34 @@ in my off-work hours and mostly from a phone, I've shipped a production API on G
 ecosystem-wide bug investigation that got fixes merged in other teams' code, and a public, fully reproducible trading
 research project.
 
+## Install Solana Pulse
+Check a Solana transaction before your agent signs it. 25 free calls a day per tool, no key needed.
+
+[![npm](https://img.shields.io/npm/v/solana-pulse?label=npm%20solana-pulse&style=flat-square&labelColor=0a0f19&color=dfc58a&logo=npm)](https://www.npmjs.com/package/solana-pulse)
+[![PyPI](https://img.shields.io/pypi/v/solana-pulse?label=pypi%20solana-pulse&style=flat-square&labelColor=0a0f19&color=dfc58a&logo=pypi&logoColor=dfc58a)](https://pypi.org/project/solana-pulse/)
+[![AgentKit](https://img.shields.io/npm/v/agentkit-solana-pulse?label=Coinbase%20AgentKit&style=flat-square&labelColor=0a0f19&color=cfab66&logo=npm)](https://www.npmjs.com/package/agentkit-solana-pulse)
+[![elizaOS](https://img.shields.io/npm/v/elizaos-plugin-solana-pulse?label=elizaOS&style=flat-square&labelColor=0a0f19&color=cfab66&logo=npm)](https://www.npmjs.com/package/elizaos-plugin-solana-pulse)
+[![Solana Agent Kit](https://img.shields.io/npm/v/solana-agent-kit-plugin-pulse?label=Solana%20Agent%20Kit&style=flat-square&labelColor=0a0f19&color=cfab66&logo=npm)](https://www.npmjs.com/package/solana-agent-kit-plugin-pulse)
+
+| For | Install |
+|---|---|
+| JavaScript / TypeScript | `npm install solana-pulse` |
+| Python | `pip install solana-pulse` |
+| Coinbase AgentKit | `npm install agentkit-solana-pulse` |
+| elizaOS | `npm install elizaos-plugin-solana-pulse` |
+| Solana Agent Kit (SendAI) | `npm install solana-agent-kit-plugin-pulse` |
+| Any MCP client (Claude, Cursor…) | `https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp` |
+
+```js
+import { checkBeforeSign } from "solana-pulse";
+await checkBeforeSign(tx); // throws unless Pulse says the transaction is OK
+```
+
+```python
+from solana_pulse import check_before_sign
+check_before_sign(tx)  # raises unless Pulse says the transaction is OK
+```
+
 ## Featured work
 | Project | What it is | Highlights |
 |---|---|---|
