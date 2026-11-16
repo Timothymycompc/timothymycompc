@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-111-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-110-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -74,7 +74,7 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 | 2026-11-15 | [kapilcdave/kapil-grok-bot#3](https://github.com/kapilcdave/kapil-grok-bot/issues/3) | devbot launchpads: check what a launchpad's transaction does before sign_partial() signs it | open |
 | 2026-11-15 | [happyiyate-hash/Recoverable-wallet#1](https://github.com/happyiyate-hash/Recoverable-wallet/issues/1) | executeSwap: check the Jupiter transaction before executeSwap() signs it | open |
 
-<sub>Updated automatically from GitHub: 111 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 110 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
