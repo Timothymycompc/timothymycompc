@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-110-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-130-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-9_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -65,16 +65,16 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
-| 2026-11-15 | [Bug-Hunty/ArbiMind#26](https://github.com/Bug-Hunty/ArbiMind/issues/26) | SolanaExecutor: check the Jupiter transaction before executeLive() signs it | open |
-| 2026-11-15 | [Army161/apex-trading-os#3](https://github.com/Army161/apex-trading-os/issues/3) | solana-copy executor: check the Jupiter transaction before send() signs it | open |
-| 2026-11-15 | [AhindraD/hush-v1#10](https://github.com/AhindraD/hush-v1/issues/10) | SettlementRelay: check the envelope transaction before signAndSubmit() signs it | open |
-| 2026-11-15 | [0xlazorr/Msniffer.bot#1](https://github.com/0xlazorr/Msniffer.bot/issues/1) | jupiter_swap: check the Jupiter transaction before build_and_sign_swap() signs it | open |
-| 2026-11-15 | [techleadevelopers/printer-sol#1](https://github.com/techleadevelopers/printer-sol/issues/1) | jupiter swap-helper: check the Jupiter transaction before finalizeTransaction() signs it | open |
-| 2026-11-15 | [lpsmurf/hfsp-labs-colosseum#104](https://github.com/lpsmurf/hfsp-labs-colosseum/issues/104) | crossmint payOrder: check the order transaction before the agent signs it | open |
-| 2026-11-15 | [kapilcdave/kapil-grok-bot#3](https://github.com/kapilcdave/kapil-grok-bot/issues/3) | devbot launchpads: check what a launchpad's transaction does before sign_partial() signs it | open |
-| 2026-11-15 | [happyiyate-hash/Recoverable-wallet#1](https://github.com/happyiyate-hash/Recoverable-wallet/issues/1) | executeSwap: check the Jupiter transaction before executeSwap() signs it | open |
+| 2026-11-17 | [Riftn/riftn-mobile#3212](https://github.com/Riftn/riftn-mobile/issues/3212) | dex-solana-trade: check the Jupiter transaction before sign() signs it | open |
+| 2026-11-17 | [ParanormalRave/daxthebot#5](https://github.com/ParanormalRave/daxthebot/issues/5) | jupiter executeSwap: check the Jupiter transaction before executeSwap() signs it | open |
+| 2026-11-17 | [MuzzaiyyanHussain/sniper-bot#1](https://github.com/MuzzaiyyanHussain/sniper-bot/issues/1) | sign_transaction: check the Jupiter transaction before sign_transaction() signs it | open |
+| 2026-11-17 | [Maximus0Primus/TelethonIA#1](https://github.com/Maximus0Primus/TelethonIA/issues/1) | jupiter_trigger: check the Jupiter transaction before _sign_transaction() signs it | open |
+| 2026-11-17 | [Marattttt/unibot#1](https://github.com/Marattttt/unibot/issues/1) | jupyter execute: check the Jupiter transaction before execute() signs it | open |
+| 2026-11-17 | [MARIYE1988/JUPITER-BOT#3](https://github.com/MARIYE1988/JUPITER-BOT/issues/3) | executeJupiterSwap: check the Jupiter transaction before executeJupiterSwap() signs it | open |
+| 2026-11-17 | [KartikaySr/MindineersOS#20](https://github.com/KartikaySr/MindineersOS/issues/20) | steward wallet: check page transactions before signLocalBrowserSolanaTransaction() signs them | open |
+| 2026-11-17 | [KKPATKK/solsolsol#1](https://github.com/KKPATKK/solsolsol/issues/1) | jupiter signAndSend: check the Jupiter transaction before signAndSend() signs it | open |
 
-<sub>Updated automatically from GitHub: 110 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 130 issues filed, 9 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
