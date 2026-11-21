@@ -16,7 +16,7 @@
 **Portfolio site: [timothymycompc.github.io](https://timothymycompc.github.io)**
 
 I build **safety tools for AI agents and people who move money on Solana**, and I test them honestly. Since August 2026,
-in my off-work hours and mostly from a phone, I've shipped a production API on Google Cloud, two free public safety websites, five Telegram bots, an
+in my off-work hours and mostly from a phone, I've shipped a production API on Google Cloud, two free public safety websites, Telegram bots, an
 ecosystem-wide bug investigation that got fixes merged in other teams' code, and a public, fully reproducible trading
 research project.
 
@@ -57,9 +57,25 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 | **Version 1 transaction investigation** | Found that ~35–44% of Solana swaps had moved to a transaction format many apps couldn't read | Measured it, fixed my own API the same night, filed 45 reports; **fixes merged in 9 projects** (incl. elizaOS, rotki, Agent402, Chainflip, QuickNode), plus 3 fix PRs of my own. Nov 11: tested on mainnet that `@solana/web3.js` below 1.99.0 can't read version 1 even with the right setting, posted corrections on my own reports, and restarted the reports from a daily cloud job (10 a day, each checked against the repo's live code); paused Nov 12 to focus on direct offers to teams that sign API-built transactions |
 | **[Base Pulse](https://github.com/Timothymycompc/base-pulse)** | The same safety layer for agents paying on Base (EVM): recipient checks, approvals, sanctions list, x402 checks | Live since Oct 14 |
 | **[CashOut Check](https://github.com/Timothymycompc/cashout-check)** | Paste an online casino, play-to-earn app or deposit wallet, get a plain scam-risk answer with sources | Built from real scam investigations; tests use recorded real cases |
-| **Telegram bots** | Public Pulse checker, a firewood-buyer finder (free public data), grant/bounty scanner, freelance job assistant | 2 live, 3 built |
+| **[Pulse Safety Desk](https://github.com/Timothymycompc/pulse-safety-desk)** | Entry for Cognizant's Open Agentic Web Challenge: an agent desk that checks wallets, tokens and transactions with Solana Pulse before anything is signed | Live, public repo, live tests pass |
+| **Security lab (learning)** | Kali NetHunter on an unrooted phone, driven by Claude Code; deliberately broken practice APIs (IDOR, price tampering, no rate limit) attacked and then fixed | Own targets and legal labs only; next: web/API bug bounties inside each program's written scope |
+| **Telegram bots** | Public Solana Pulse checker | Live |
 | **[Trading Review](https://github.com/Timothymycompc/trading-review)** | Honest backtests of memecoin bots, stock rules and forex systems — all code and raw data public | Locked test years, hidden data, tests committed before they ran; reports what *failed* |
 | **[Dev Log](https://github.com/Timothymycompc/dev-log)** | The full story: what I built, what broke, how I fixed it, what I learned | Timeline, lessons, security practices |
+
+## Recent work
+<!-- recent:start -->
+| Date | Repo | Latest change |
+|---|---|---|
+| 2026-11-21 | [solana-pulse-ai-agent-gateway](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) | [RPC backup: when Helius answers 429, use Solana's public RPC for 2 minutes, then try Helius again](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway/commit/da706662294bb81ea6b07169c092155d6b2ab54c) |
+| 2026-11-19 | [dev-log](https://github.com/Timothymycompc/dev-log) | [Nov 11-19: Drain Check first outside users (all via X), 80 team offers gave 0 callers, offers sto...](https://github.com/Timothymycompc/dev-log/commit/40c60dff0ce3da8d3bbefe8b778347465044b91a) |
+| 2026-11-18 | [base-pulse](https://github.com/Timothymycompc/base-pulse) | [deploy checks: grep reads whole answer (grep -q + pipefail is flaky on long pages)](https://github.com/Timothymycompc/base-pulse/commit/bd0a45f73fad497a8ef7ae8e6fce019295601ec6) |
+| 2026-11-16 | [pulse-safety-desk](https://github.com/Timothymycompc/pulse-safety-desk) | [Readable Developer view, no [object Object]; peer address sends people to the explainer; desk lin...](https://github.com/Timothymycompc/pulse-safety-desk/commit/52172a64ca0b336da60e3d30884041e83b25c218) |
+| 2026-11-15 | [Timothymycompc.github.io](https://github.com/Timothymycompc/Timothymycompc.github.io) | [Trading page: stocks live paper desk status (2 x $50 probes, +$1.81)](https://github.com/Timothymycompc/Timothymycompc.github.io/commit/7efb3c217cc9c459f565872b6535b811d8a29b2e) |
+| 2026-11-10 | [trading-review](https://github.com/Timothymycompc/trading-review) | [fx-paper: Fed-day shadow trade opens only the trading day before the meeting](https://github.com/Timothymycompc/trading-review/commit/0db7f1c0c9e6b307874e4b000c107ae08f3c2fd0) |
+
+<sub>Updated automatically from my public repos' commits.</sub>
+<!-- recent:end -->
 
 ## Latest bug reports and fixes
 <!-- latest:start -->
@@ -115,8 +131,9 @@ this **every day (33 of 33), about 7 hours a day.**
 - **Writing code without AI help.** I direct and review AI-written code well; my hand-coding fundamentals are what I'm
   building up next.
 - **Getting real users.** Pulse has handled 180k+ calls, but those were directories, monitors and tests, not customers.
-  Distribution is the skill I'm learning now. Since Nov 11 I'm offering agent teams a free month of pre-sign checks,
-  each message pointing at the exact line where their agent signs a transaction without checking it.
+  Distribution is the skill I'm learning now. Nov 11–19 I offered about 80 agent teams a free month of pre-sign
+  checks, each pointing at the exact line where their agent signs without checking. None started calling Pulse (two
+  copied the fix instead), so I stopped and I'm rethinking how to reach users.
 - **Finishing before starting.** A few bots are built but not yet deployed, so I'm working to one project at a time.
 
 ## Tools I use
