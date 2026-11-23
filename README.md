@@ -6,7 +6,7 @@
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
 ![Issues filed](https://img.shields.io/badge/issues_filed-130-f59e0b?style=flat-square&labelColor=0a0f19)
-![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-11_projects-10b981?style=flat-square&labelColor=0a0f19)
+![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-12_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
 [![mcptry](https://mcptry.com/badge/io.github.Timothymycompc/solana-pulse-gateway)](https://mcptry.com/servers/io.github.Timothymycompc/solana-pulse-gateway)
@@ -67,9 +67,9 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- recent:start -->
 | Date | Repo | Latest change |
 |---|---|---|
+| 2026-11-21 | [Timothymycompc.github.io](https://github.com/Timothymycompc/Timothymycompc.github.io) | [Portfolio: auto-update GitHub-derived numbers; fix live-services list (drop deleted Firewood, add...](https://github.com/Timothymycompc/Timothymycompc.github.io/commit/ca2634eb7948b1e686c62a2592bc7bdff3a51241) |
 | 2026-11-23 | [pulse-safety-desk](https://github.com/Timothymycompc/pulse-safety-desk) | [tx_checker names steps exactly as check_tx decoded them; never says "unknown programs" unless Pul...](https://github.com/Timothymycompc/pulse-safety-desk/commit/683795ef20f9a40db8690fc9366498dc9844328a) |
 | 2026-11-22 | [solana-pulse-ai-agent-gateway](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) | [Agent Kit plugin: regenerate tool list after the tx_matches doc fixes](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway/commit/d2ff42418a554f42cadccf2e784139a7cc1249f0) |
-| 2026-11-21 | [Timothymycompc.github.io](https://github.com/Timothymycompc/Timothymycompc.github.io) | [Portfolio: auto-update GitHub-derived numbers; fix live-services list (drop deleted Firewood, add...](https://github.com/Timothymycompc/Timothymycompc.github.io/commit/ca2634eb7948b1e686c62a2592bc7bdff3a51241) |
 | 2026-11-19 | [dev-log](https://github.com/Timothymycompc/dev-log) | [Nov 11-19: Drain Check first outside users (all via X), 80 team offers gave 0 callers, offers sto...](https://github.com/Timothymycompc/dev-log/commit/40c60dff0ce3da8d3bbefe8b778347465044b91a) |
 | 2026-11-18 | [base-pulse](https://github.com/Timothymycompc/base-pulse) | [deploy checks: grep reads whole answer (grep -q + pipefail is flaky on long pages)](https://github.com/Timothymycompc/base-pulse/commit/bd0a45f73fad497a8ef7ae8e6fce019295601ec6) |
 | 2026-11-10 | [trading-review](https://github.com/Timothymycompc/trading-review) | [fx-paper: Fed-day shadow trade opens only the trading day before the meeting](https://github.com/Timothymycompc/trading-review/commit/0db7f1c0c9e6b307874e4b000c107ae08f3c2fd0) |
@@ -90,7 +90,7 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 | 2026-11-17 | [KartikaySr/MindineersOS#20](https://github.com/KartikaySr/MindineersOS/issues/20) | steward wallet: check page transactions before signLocalBrowserSolanaTransaction() signs them | open |
 | 2026-11-17 | [KKPATKK/solsolsol#1](https://github.com/KKPATKK/solsolsol/issues/1) | jupiter signAndSend: check the Jupiter transaction before signAndSend() signs it | open |
 
-<sub>Updated automatically from GitHub: 130 issues filed, 11 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 130 issues filed, 12 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
