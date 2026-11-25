@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-130-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-129-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-12_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -90,7 +90,7 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 | 2026-11-17 | [KartikaySr/MindineersOS#20](https://github.com/KartikaySr/MindineersOS/issues/20) | steward wallet: check page transactions before signLocalBrowserSolanaTransaction() signs them | open |
 | 2026-11-17 | [KKPATKK/solsolsol#1](https://github.com/KKPATKK/solsolsol/issues/1) | jupiter signAndSend: check the Jupiter transaction before signAndSend() signs it | open |
 
-<sub>Updated automatically from GitHub: 130 issues filed, 12 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 129 issues filed, 12 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
