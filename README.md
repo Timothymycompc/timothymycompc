@@ -67,9 +67,9 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- recent:start -->
 | Date | Repo | Latest change |
 |---|---|---|
-| 2026-11-24 | [pocket-web](https://github.com/Timothymycompc/pocket-web) | [Hidden boxes stay hidden; each page opens at its top; example chips only from real answers](https://github.com/Timothymycompc/pocket-web/commit/08e896723c7fdfb3a182c7f7bfd3e5bcd8e7e7fd) |
+| 2026-11-25 | [pulse-safety-desk](https://github.com/Timothymycompc/pulse-safety-desk) | [Free model runs on paid Vertex AI; privacy and terms pages; 18+ note](https://github.com/Timothymycompc/pulse-safety-desk/commit/20f8eedf6df4646466f179b9e7197f7585ccbc24) |
+| 2026-11-25 | [pocket-web](https://github.com/Timothymycompc/pocket-web) | [Free model runs on paid Vertex AI; privacy and terms page; 18+ note](https://github.com/Timothymycompc/pocket-web/commit/1b78d3db3bd109462208df6d6a89f8bc4f7cd0a4) |
 | 2026-11-21 | [Timothymycompc.github.io](https://github.com/Timothymycompc/Timothymycompc.github.io) | [Portfolio: auto-update GitHub-derived numbers; fix live-services list (drop deleted Firewood, add...](https://github.com/Timothymycompc/Timothymycompc.github.io/commit/ca2634eb7948b1e686c62a2592bc7bdff3a51241) |
-| 2026-11-23 | [pulse-safety-desk](https://github.com/Timothymycompc/pulse-safety-desk) | [tx_checker names steps exactly as check_tx decoded them; never says "unknown programs" unless Pul...](https://github.com/Timothymycompc/pulse-safety-desk/commit/683795ef20f9a40db8690fc9366498dc9844328a) |
 | 2026-11-22 | [solana-pulse-ai-agent-gateway](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) | [Agent Kit plugin: regenerate tool list after the tx_matches doc fixes](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway/commit/d2ff42418a554f42cadccf2e784139a7cc1249f0) |
 | 2026-11-19 | [dev-log](https://github.com/Timothymycompc/dev-log) | [Nov 11-19: Drain Check first outside users (all via X), 80 team offers gave 0 callers, offers sto...](https://github.com/Timothymycompc/dev-log/commit/40c60dff0ce3da8d3bbefe8b778347465044b91a) |
 | 2026-11-18 | [base-pulse](https://github.com/Timothymycompc/base-pulse) | [deploy checks: grep reads whole answer (grep -q + pipefail is flaky on long pages)](https://github.com/Timothymycompc/base-pulse/commit/bd0a45f73fad497a8ef7ae8e6fce019295601ec6) |
