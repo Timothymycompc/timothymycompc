@@ -5,7 +5,7 @@
 ![Pull Shark](https://img.shields.io/badge/GitHub_achievement-Pull_Shark-dfc58a?style=flat-square&labelColor=0a0f19&logo=github&logoColor=dfc58a)
 ![YOLO](https://img.shields.io/badge/GitHub_achievement-YOLO-cfab66?style=flat-square&labelColor=0a0f19&logo=github&logoColor=cfab66)
 ![Merged PRs](https://img.shields.io/badge/merged_PRs-4-10b981?style=flat-square&labelColor=0a0f19)
-![Issues filed](https://img.shields.io/badge/issues_filed-129-f59e0b?style=flat-square&labelColor=0a0f19)
+![Issues filed](https://img.shields.io/badge/issues_filed-131-f59e0b?style=flat-square&labelColor=0a0f19)
 ![Fixes merged](https://img.shields.io/badge/upstream_fixes_from_my_reports-12_projects-10b981?style=flat-square&labelColor=0a0f19)
 
 [![Solana Pulse on Glama](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Timothymycompc/solana-pulse-gateway)
@@ -67,11 +67,11 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- recent:start -->
 | Date | Repo | Latest change |
 |---|---|---|
+| 2026-11-25 | [dev-log](https://github.com/Timothymycompc/dev-log) | [Study plan with milestones; three investigator case studies](https://github.com/Timothymycompc/dev-log/commit/e3dbca79cecf3e24ae74bc7a74b7cb30d5a85143) |
 | 2026-11-25 | [pulse-safety-desk](https://github.com/Timothymycompc/pulse-safety-desk) | [Free model runs on paid Vertex AI; privacy and terms pages; 18+ note](https://github.com/Timothymycompc/pulse-safety-desk/commit/20f8eedf6df4646466f179b9e7197f7585ccbc24) |
 | 2026-11-25 | [pocket-web](https://github.com/Timothymycompc/pocket-web) | [Free model runs on paid Vertex AI; privacy and terms page; 18+ note](https://github.com/Timothymycompc/pocket-web/commit/1b78d3db3bd109462208df6d6a89f8bc4f7cd0a4) |
 | 2026-11-21 | [Timothymycompc.github.io](https://github.com/Timothymycompc/Timothymycompc.github.io) | [Portfolio: auto-update GitHub-derived numbers; fix live-services list (drop deleted Firewood, add...](https://github.com/Timothymycompc/Timothymycompc.github.io/commit/ca2634eb7948b1e686c62a2592bc7bdff3a51241) |
 | 2026-11-22 | [solana-pulse-ai-agent-gateway](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) | [Agent Kit plugin: regenerate tool list after the tx_matches doc fixes](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway/commit/d2ff42418a554f42cadccf2e784139a7cc1249f0) |
-| 2026-11-19 | [dev-log](https://github.com/Timothymycompc/dev-log) | [Nov 11-19: Drain Check first outside users (all via X), 80 team offers gave 0 callers, offers sto...](https://github.com/Timothymycompc/dev-log/commit/40c60dff0ce3da8d3bbefe8b778347465044b91a) |
 | 2026-11-18 | [base-pulse](https://github.com/Timothymycompc/base-pulse) | [deploy checks: grep reads whole answer (grep -q + pipefail is flaky on long pages)](https://github.com/Timothymycompc/base-pulse/commit/bd0a45f73fad497a8ef7ae8e6fce019295601ec6) |
 
 <sub>Updated automatically from my public repos' commits.</sub>
@@ -81,16 +81,16 @@ check_before_sign(tx)  # raises unless Pulse says the transaction is OK
 <!-- latest:start -->
 | Date | Issue | What it's about | State |
 |---|---|---|---|
+| 2026-11-25 | [Creacove/ordersoundsw#9](https://github.com/Creacove/ordersoundsw/issues/9) | verify-solana-payment never finds payments sent as version 1 transactions | open |
+| 2026-11-25 | [Vishal4742/agentid-kya-solana#149](https://github.com/Vishal4742/agentid-kya-solana/issues/149) | x402 verification returns 500 for payments sent as version 1 transactions | open |
 | 2026-11-17 | [Riftn/riftn-mobile#3212](https://github.com/Riftn/riftn-mobile/issues/3212) | dex-solana-trade: check the Jupiter transaction before sign() signs it | open |
 | 2026-11-17 | [ParanormalRave/daxthebot#5](https://github.com/ParanormalRave/daxthebot/issues/5) | jupiter executeSwap: check the Jupiter transaction before executeSwap() signs it | open |
 | 2026-11-17 | [MuzzaiyyanHussain/sniper-bot#1](https://github.com/MuzzaiyyanHussain/sniper-bot/issues/1) | sign_transaction: check the Jupiter transaction before sign_transaction() signs it | open |
 | 2026-11-17 | [Maximus0Primus/TelethonIA#1](https://github.com/Maximus0Primus/TelethonIA/issues/1) | jupiter_trigger: check the Jupiter transaction before _sign_transaction() signs it | open |
 | 2026-11-17 | [Marattttt/unibot#1](https://github.com/Marattttt/unibot/issues/1) | jupyter execute: check the Jupiter transaction before execute() signs it | open |
 | 2026-11-17 | [MARIYE1988/JUPITER-BOT#3](https://github.com/MARIYE1988/JUPITER-BOT/issues/3) | executeJupiterSwap: check the Jupiter transaction before executeJupiterSwap() signs it | open |
-| 2026-11-17 | [KartikaySr/MindineersOS#20](https://github.com/KartikaySr/MindineersOS/issues/20) | steward wallet: check page transactions before signLocalBrowserSolanaTransaction() signs them | open |
-| 2026-11-17 | [KKPATKK/solsolsol#1](https://github.com/KKPATKK/solsolsol/issues/1) | jupiter signAndSend: check the Jupiter transaction before signAndSend() signs it | open |
 
-<sub>Updated automatically from GitHub: 129 issues filed, 12 projects fixed a bug I reported, 4 merged PRs.</sub>
+<sub>Updated automatically from GitHub: 131 issues filed, 12 projects fixed a bug I reported, 4 merged PRs.</sub>
 <!-- latest:end -->
 
 ## Time invested
